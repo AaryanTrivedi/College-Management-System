@@ -1,6 +1,6 @@
 import mysql.connector as mysql
 
-db = mysql.connect(host="localhost", user="root", password='Ilovemyps4', database="cms")
+db = mysql.connect(host="localhost", user="root", password='', database="cms")
 command_handler = db.cursor(buffered=True)
 
 def student_session(username):
